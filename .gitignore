@@ -1,0 +1,13 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Iverilog and Waveform Artifacts
+rtl/sim_out
+rtl/*.vcd
+testbench/*.vcd
+*.vcd
+
+# OS generated files
+.DS_Store
